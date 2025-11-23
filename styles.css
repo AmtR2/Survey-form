@@ -1,0 +1,96 @@
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2016/11/29/06/18/home-office-1867761_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  color: rgb(40, 40, 40);
+  font-family:'Times New Roman', Times, serif;
+  font-size: 24px;
+}
+
+h1, p {
+  text-align: center;
+}
+
+h1 {
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.established {
+  font-style: italic;
+}
+
+form {
+  background-color: rgba(43, 43, 43, 0.797);
+  color: rgb(245, 255, 250);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(233, 186, 92, 0.911);
+  width: 60vw;
+  max-width: 700px;
+  min-width: 350px;
+  margin: 0 auto;
+  padding: 15px 15px 25px 15px;
+}
+
+label {
+  display: block;
+}
+
+fieldset {
+  border: none;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  margin: 0.1em 0 1em 0;
+  min-height: 2em;
+  font-size: 0.67em;
+}
+
+input,
+select {
+  border-radius: 5px;
+}
+
+textarea {
+  min-height: 6.33em;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: rgba(44, 44, 44, 0.904);
+  border-color: rgb(133, 66, 66);
+  color: rgb(245, 255, 250);
+  font-size: 1.33rem;
+  min-height: 2.5em;
+}
+
+input[type="submit"]:hover {
+  outline: none !important;
+  border: 2px solid wheat;
+  box-shadow: 0 0 10px wheat;
+  cursor: pointer;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+select:focus {
+  outline: none !important;
+  box-shadow: 0 0 7px wheat;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  min-height: unset;
+  vertical-align: middle;
+}
